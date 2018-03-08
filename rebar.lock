@@ -1,6 +1,4 @@
-{"1.1.0",
-[{<<"bcrypt">>,{pkg,<<"bcrypt">>,<<"1.0.0">>},0}]}.
-[
-{pkg_hash,[
- {<<"bcrypt">>, <<"1C0F76981D8A7B32E4DAA813408BFCA5BA8B1286196EB771F026D02C710F71C5">>}]}
-].
+[{<<"bcrypt">>,
+  {git,"https://github.com/kjw1/erlang-bcrypt",
+       {ref,"958ff7dd4429eaf8e965442e341d779e34acf73f"}},
+  0}].
